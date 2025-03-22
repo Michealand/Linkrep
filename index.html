@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LinkRep – Linki z CNFans</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #00ffaa;
+    }
+    nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+    nav a {
+      color: #00ffaa;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      color: #ffffff;
+    }
+    .links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .card {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: #00ffaa;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #00ffaa;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LinkRep</h1>
+    <nav>
+      <a href="#oferta">Oferta</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Sprzedajemy najlepsze linki z CNFans</h2>
+    <p>Linki do ekskluzywnych treści – bezpośrednio, szybko i bezpiecznie.</p>
+  </section>
+
+  <section id="oferta" class="links">
+    <div class="card">
+      <h3>Link do profilu X</h3>
+      <p>Unikalny dostęp do ekskluzywnych materiałów</p>
+      <a href="#">Kup teraz</a>
+    </div>
+    <div class="card">
+      <h3>Pakiet 3 linków</h3>
+      <p>Zestaw linków w promocyjnej cenie</p>
+      <a href="#">Zobacz</a>
+    </div>
+    <div class="card">
+      <h3>Link do kolekcji Y</h3>
+      <p>Pełen dostęp do kolekcji premium</p>
+      <a href="#">Kup</a>
+    </div>
+  </section>
+
+  <footer id="kontakt">
+    <p>Kontakt: <a href="mailto:linkrep@email.com">linkrep@email.com</a> | IG: @linkrep</p>
+  </footer>
+
+</body>
+</html>
